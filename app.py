@@ -188,9 +188,9 @@ with gr.Blocks(title="Medical Q&A Assistant (Mistral-7B QLoRA)") as demo:
                 fn=chat_respond,
                 additional_inputs=[max_new_tokens, temperature, top_p],
                 examples=[
-                    "I've had a persistent headache every morning for a week. What could be causing it?",
-                    "What are common early symptoms of type 2 diabetes?",
-                    "Is it normal to feel dizzy after standing up quickly?",
+                    ["I've had a persistent headache every morning for a week. What could be causing it?"],
+                    ["What are common early symptoms of type 2 diabetes?"],
+                    ["Is it normal to feel dizzy after standing up quickly?"],
                 ],
                 title=None,
             )
