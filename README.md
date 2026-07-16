@@ -170,6 +170,6 @@ This covers the training pipeline, notebooks, and scripts only. The **dataset** 
 
 ## Acknowledgments
 
-- [ChatDoctor project](https://github.com/Kent0n-Li/ChatDoctor) and the HealthCareMagic dataset authors
+- HealthCareMagic dataset authors
 - Mistral AI for the base model
 - Hugging Face for the `transformers`/`peft`/`trl` ecosystem
