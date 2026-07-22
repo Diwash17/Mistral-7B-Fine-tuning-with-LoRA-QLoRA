@@ -2,6 +2,8 @@
 
 Parameter-efficient fine-tuning of Mistral-7B-Instruct on real-world patient-doctor conversations, adapting a general-purpose LLM into a domain-specific medical Q&A assistant using 4-bit quantized LoRA (QLoRA).
 
+📝 Full write-up: [Medium walkthrough](https://medium.com/@diwash.adhi4/fine-tuning-mistral-7b-for-medical-q-a-with-qlora-a-practical-walkthrough-5e97faac9c8b)
+
 ## Overview
 
 This project fine-tunes `mistralai/Mistral-7B-Instruct-v0.2` on the ChatDoctor-HealthCareMagic dataset to explore how far a 7B open-weight model can be pushed toward domain specialization under consumer-GPU memory constraints. The focus is on the full fine-tuning pipeline — data curation, quantization-aware training, and evaluation — rather than building a production clinical tool.
